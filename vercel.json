@@ -1,14 +1,6 @@
 {
   "version": 2,
-  "name": "joinus-demo",
-  "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "styles.css", "use": "@vercel/static" },
-    { "src": "app.js", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  "name": "joinus-demo"
 }
 
 
